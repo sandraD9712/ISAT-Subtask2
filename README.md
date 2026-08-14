@@ -1,3 +1,4 @@
+adding conversation functions and menu
 #include <iostream>
 #include <string>
 #include <cstdlib>
