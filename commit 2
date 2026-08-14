@@ -1,0 +1,13 @@
+git add main.cpp
+git commit -m "Add decimal to binary conversion"
+  string decToBin(int n) {
+    if (n == 0) return "0";
+    string b = "";
+
+    while (n > 0) {
+        b = char('0' + n % 2) + b;
+        n /= 2;
+    }
+
+    return b;
+}
