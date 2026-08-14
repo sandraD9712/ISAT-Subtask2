@@ -1,0 +1,10 @@
+git add main.cpp
+git commit -m "Add binary to decimal conversion"
+  int binToDec(string b) {
+    int n = 0;
+
+    for (char c : b)
+        n = n * 2 + (c - '0');
+
+    return n;
+}
