@@ -1,0 +1,4 @@
+git add main.cpp
+git commit -m "Add hexadecimal conversion functions"
+  string decToHex(int n)
+int hexToDec(string h)
